@@ -1,0 +1,129 @@
+.detail{
+    display: flex;
+    box-shadow: 10px 10px 5px grey;
+    background-color: #f0f0f5;
+}
+.info{
+    display: flex;
+}
+.claim{
+    font-weight: 700;
+    color: #787887;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+.certified{
+    color: #19d642
+}
+.taste_the_thunder{
+    color: #4ed63e;
+}
+.nakli_ruskin_bond_ka_naam{
+    color: #787887;
+    font-weight: bolder
+}
+.jawaab{
+    padding-top: 53px;
+
+}
+.q1{
+    font-weight: 700;
+    font-size: 15px;
+}
+.daant{
+    color: blue;
+}
+.faaltu_info{
+    border-bottom: ridge;
+    padding-bottom: 35px
+}
+.bhaida_jawaab{
+    border-bottom: ridge;
+    padding-bottom: 35px
+}
+.kya_naam_doon{
+    border-bottom: ridge;
+    margin-bottom: 15px;
+    padding-bottom: 47px;
+}
+.bas_aur_kitne_naam{
+    padding-left: 45px;
+}
+.jawaab{
+    font-weight: bolder;
+}
+.a1{
+    font-weight: bolder;
+}
+.is_class_ko_kya_naam_doon{
+    padding-left: 50px;
+}
+.thak_gaya_yaar{
+    padding-left: 50px;
+}
+.abc{
+    padding-left: 25px;
+}
+.healthfeed{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    border-radius: 50%;
+    height: 100px;
+}
+.bass_yaar{
+    font-size: 14px;
+    color: #6a6a6a;
+    padding-top: 25px;
+}
+div{
+    background: #f0f0f5;
+}
+.maharani{
+    box-shadow: 10px 10px 5px grey;
+}
+.lists{
+    border-bottom: ridge;
+}
+.showoff{
+    display: flex;
+    border-bottom: ridge;
+}
+.edu_and_member{
+    display: flex;
+    border-bottom: ridge;
+}
+.xp_and_reg{
+    display: flex;
+    border-bottom: ridge;
+}.xp{
+    width: 799px;
+}
+.specializations{
+    width: 799px;
+}
+.edu{
+    width: 799px;
+}
+.xp{
+    width: 799px;
+}
+.hmm{
+    box-shadow: 10px 5px 5px grey;
+}
+.lists{
+    padding-top: 24px;
+}
+.edu_and_member{
+    padding-top: 24px;
+}
+.xp_and_reg{
+    padding-top: 24px;
+}
+.showoff{
+    padding-top: 24px;
+}
+body{
+    padding-bottom: 85px;
+}

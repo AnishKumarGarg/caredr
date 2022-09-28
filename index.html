@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareDr</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="search.css"> -->
+  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body style="/* overflow-y: clip; */overflow-x: hidden;">
+
+  <section>
+    <input type="checkbox" id="check">
+    <header>
+    
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="practo.html">About</a>
+        <a href="Contact_us.html">Contact Us</a>
+        <a href="redirect.html">Blog</a>
+        <a href="logn.html">Login</a>
+
+      </div>
+      <div id="search-box">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Search">
+      </div>
+
+      <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+      </label>
+    </header>
+    <div class="content">
+
+      <form action="doctors.html">
+      <div class="middle">
+
+        <div id="option">
+
+
+
+          <input name="state"  list="brow"id="vr" placeholder="Select Region">
+          <datalist id="brow">
+            <option value="Chandigarh">
+            <option value="Bihar">
+            <option value="Patiala">
+            <option value="Delhi">
+        
+          </datalist>  
+
+
+
+
+        </div>
+
+        <div id="option1">
+
+
+
+          <input name="speciality" list="brow1"id="vr1" placeholder="Speciality">
+          <datalist id="brow1">
+            <option value="General Physician">
+            <option value="Homeopath">
+            
+            <option value="Ayurveda">
+          </datalist>  
+
+          
+
+
+        </div>
+        <input type="submit" value="Search" id="bt1"/>
+      </div>
+      </form>
+      <div class="info">
+        <h2>CAREDR<br><span>CARE FOR ALL!</span></h2>
+        <p>Health is a key factor of normal life of any person. We cannot perform wholesome physical and mental activity
+          without good health. Each separate medical institution is a treatment oasis of many diseases. Our team decided
+          to create a modern Life Line UI, where people could easily find the right specialist to get an online
+          consultation or to make an appointment using website built-in tools.We tried to implement the main controls of
+          any website in terms of medical subjects and basic needs of patients.</p>
+       
+        <a href="" class="info-btn">More info</a>
+
+
+
+
+      </div>
+
+      <div class="services" style="position: relative;right: 63px">
+        <div class="card">
+
+          <div class="slide slide1">
+
+            <div class="content">
+
+              <div class="icon" id="cd1">
+                
+              
+                
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="slide slide2">
+
+            <div class="content">
+
+              <h3>
+
+                <a href="med.html" style="text-decoration: none; color: rgba(0, 0, 0, 0.651);">Medicines </a>
+
+              </h3>
+
+              <p>.</p>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="slide slide1">
+
+            <div class="content">
+
+              <div class="icon" id="cd2">
+
+                
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="slide slide2">
+
+            <div class="content">
+
+              <h3>
+
+                <a href="home.html" style="text-decoration: none;background-color: transparent; color: rgba(0, 0, 0, 0.651);">Doctor Registration</a>
+
+              </h3>
+
+              <p></p>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="slide slide1">
+
+            <div class="content">
+
+              <div class="icon" id="cd3">
+
+                
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="slide slide2">
+
+            <div class="content">
+
+              <h3>
+
+                <a href="book.html" style="text-decoration: none; color: rgba(0, 0, 0, 0.651);">Book Appointment</a>
+
+              </h3>
+
+              <p></p>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="media-icons">
+        <a href="https://www.facebook.com/zuck"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/CHARANJITCHANNI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/byre.in/"><i class="fab fa-instagram"></i></a>
+
+      </div>
+  </section>
+  <section class="footer">
+    
+    <p><video src=
+      "CareDr.mp4"
+              type="video/mp4" muted class="vid" 
+              loop style="height: 180px;">
+          </video>
+        
+          <script>
+        
+              // Targeting video element 
+              let clip = document.querySelector(".vid")
+        
+              /* Applying mouseover event on video clip 
+              and then we call play() function to play 
+              the video when the mouse is over the video */
+              clip.addEventListener("mouseover", function (e) {
+                  clip.play();
+              })
+        
+              /* Applying mouseout event on video clip 
+              and then we call pause() function to stop 
+              the video when the mouse is out the video */
+              clip.addEventListener("mouseout", function (e) {
+                  clip.pause();
+              })
+          </script>
+    </p>
+    <p>All rights reserved</p>
+    
+    <p>Made by <i class="fa fa-heart-o"> CareDr</i>
+</section>
+</body>
+
+</html>

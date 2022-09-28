@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body{
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <title>DoctorForm</title>
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add doctor</h1>
+
+          
+        <form id="doctor" method="post" enctype='multipart/form-data' action="server/insert.php" onsubmit="return saveToServer();">
+            <div class="mb-3 mt-3">
+              <label for="text" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="text" placeholder="Enter your name" name="full_name">
+             
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your e-mail" name="e_mail">
+              </div>
+            <div class="mb-3">
+              <label for="spec" class="form-label">Proffession:</label>
+              <input  list="s2" class="form-control" placeholder="Select your Proffession" name="proffession">
+                <datalist id="s2">
+                  <option>General Physician</option>
+                  <option>Homeopath</option>
+                  <option>Ayurveda</option>
+                </datalist>
+            </div>
+            <div class="mb-3">
+                <label for="text" class="form-label">Experience:</label>
+                <input type="number" class="form-control" id="exp" placeholder="Enter your experience" name="experience">
+              </div>
+              <div class="mb-3">
+                <label for="state" class="form-label" class="form-label">State:</label>
+                <input  list="s1" name="state" class="form-control" placeholder="Enter your state">
+                <datalist id="s1">
+                  <option>Chandigarh</option>
+                  <option>Bihar</option>
+                  <option>Patiala</option>
+                  <option>Delhi</option>
+                </datalist>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" >Address:</label>
+                <textarea id="add" name="address" rows="4" cols="50">
+                    
+                </textarea>
+              </div>
+              <div class="mb-3">
+                <label for="number" class="form-label">Fee:</label>
+                <input type="number" start="100" step="100" class="form-control" id="fee" name="fee" placeholder="How much fee do you charge...." name="fee">
+              </div>
+              <div class="mb-3">
+                <label for="photo" class="form-label">Upload your photo</label>
+                <input type="file" class="form-control" id="fee" placeholder="Upload your profile photo" name="dp">
+              </div>
+
+            
+           
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+    
+</body>
+</html>

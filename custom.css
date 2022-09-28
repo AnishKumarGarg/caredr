@@ -1,0 +1,65 @@
+
+.main{
+    display:flex;
+    border-bottom: groove #c7ced43b
+}
+.c1{
+    margin-left: 20px;
+}
+.doc_pic img{
+    border-radius: 50%;
+    border: solid 2px black
+}
+.doc_pic p{
+    text-align: center;
+    margin-top: 3px;
+    
+}
+
+.avail{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.name{
+    color: #14bef0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.pro{
+    color: #787887;
+}
+.xp{
+    color: #787887;
+}
+.fee{
+    color: #414146;
+}
+.book{
+    width: 130px;
+    height: 56px;
+    border-radius: 15%;
+    background-color: rgb(73, 170, 226);
+    position: relative;
+    top: -108px;
+    left: 609px;
+}
+.bold{
+
+    font-weight:bold;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.rating{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.taste_the_thunder{
+    padding: 7px 15px;
+    background-color: limegreen;
+    border-radius: 30%;
+}
+body{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
